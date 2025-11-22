@@ -1,3 +1,5 @@
+import { LinkTo } from '@ember/routing';
+
 <template>
   <div class="jumbo">
     <div class="right tomster"></div>
@@ -15,5 +17,6 @@
       <a href="tel:503.555.1212">+1 (503) 555-1212</a><br>
       <a href="mailto:superrentalsrep@emberjs.com">superrentalsrep@emberjs.com</a>
     </address>
+    <LinkTo @route="about" class="button">About</LinkTo>
   </div>
 </template>
