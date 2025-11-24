@@ -11,9 +11,9 @@ import Rental from 'emberjs-super-rentals/components/rental';
 
   <div class="rentals">
     <ul class="results">
-      <li><Rental></Rental></li>
-      <li><Rental></Rental></li>
-      <li><Rental></Rental></li>
+      <li><Rental @rental={{@model}}></Rental></li>
+      <li><Rental @rental={{@model}}></Rental></li>
+      <li><Rental @rental={{@model}}></Rental></li>
     </ul>
   </div>
 
